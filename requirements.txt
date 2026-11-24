@@ -1,0 +1,9 @@
+# CPU is enough (a 2880x2160 frame takes tens of seconds); install the CUDA build of torch for speed if you have a GPU.
+torch>=2.2
+instanseg-torch>=0.0.8
+opencv-python-headless>=4.8
+numpy
+scipy
+scikit-image>=0.22
+matplotlib
+gradio>=4.40

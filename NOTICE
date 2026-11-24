@@ -1,0 +1,17 @@
+cam-nuclei
+Copyright 2026 YuLiuPotato
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party components
+----------------------
+
+InstanSeg (nucleus segmentation model "brightfield_nuclei" and the instanseg-torch package)
+  Apache License 2.0, https://github.com/instanseg/instanseg
+  The model weights are NOT redistributed here; the instanseg-torch package downloads them on first use.
+  Please cite: Goldsborough T. et al., "InstanSeg: an embedding-based instance segmentation algorithm optimized for
+  accurate, efficient and portable cell segmentation", arXiv:2408.15954 (2024).
+
+Example images (examples/)
+  Two regions of interest from the PUMA challenge dataset (melanoma H&E, Zenodo record 15050523),
+  released under CC0 1.0. Converted from TIFF to JPEG, otherwise unchanged.
